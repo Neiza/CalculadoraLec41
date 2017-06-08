@@ -1,6 +1,6 @@
 "use strict"
 $(_ =>{
-  const screenVal = $("input:text");
+  let screenVal = $("input:text");
 
 $("input:button").on("click", _ =>{
   const eachNumber  = $("input:button").val();

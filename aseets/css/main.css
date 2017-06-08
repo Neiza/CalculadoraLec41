@@ -36,3 +36,27 @@ input[type="button"], button{
 button:focus, input:focus{
   outline: none;
 }
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.flex-content{
+  vertical-align: middle;
+  width: 280px;
+}
+
+.head{
+  height: 80px;
+  border-top-left-radius: 44px;
+  border-top-right-radius: 44px;
+}
+
+.content{
+  height: 200px;
+  padding: 9% 7% 40% 7%;
+
+}
